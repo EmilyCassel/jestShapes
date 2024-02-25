@@ -39,13 +39,6 @@ inquirer
 const content = "This is the content of the file."
 
 
-
-
-
-
-
-
-
 function createShapeInstance(answers){
     let instance
     if (answers.shape === "circle"){
@@ -57,18 +50,6 @@ function createShapeInstance(answers){
     }
     console.log(instance)
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
